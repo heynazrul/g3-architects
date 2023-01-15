@@ -7,13 +7,23 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="styles/style.css" />
     <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>G3 Architect</title>
   </head>
   <body>
+    <!--  =========================================
+                    Header Start
+          ========================================= -->
     <header>
       <div class="container">
         <nav>
-          <h3 class="title">G3 Architect</h3>
+          <h3 class="logo">G3 Architect</h3>
           <ul id="menu">
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
@@ -21,8 +31,93 @@
             <li><a href="#">Login</a></li>
           </ul>
         </nav>
-        <section></section>
+        <section>
+          <div class="banner-info-container">
+            <h1 class="banner-title">
+              Brand New <br />
+              Group of Architects
+            </h1>
+            <p class="section-description">
+              Welcome to G3 Architects, where innovative design meets
+              functionality. We are a team of experienced architects who
+              specialize in creating beautiful and sustainable buildings.
+            </p>
+            <button class="btn-primary">Explore More</button>
+          </div>
+          <div class="banner-img">
+            <img src="images/banner.png" alt="Banner Image" />
+          </div>
+          <!--  =========================================
+                          Header End
+                ========================================= -->
+        </section>
       </div>
     </header>
+
+    <!--  =========================================
+            Quick List Start
+            ========================================= -->
+    <main>
+      <section>
+        <div class="container">
+          <div class="feature-area flex">
+            <div class="img-container">
+              <img src="images/team1.png" alt="team image 1" />
+              <img src="images/team2.png" alt="team image 2" />
+              <img src="images/team3.png" alt="team image 3" />
+              <img src="images/team4.png" alt="team image 4" />
+            </div>
+            <div class="feature-container">
+              <h3 class="section-title">
+                <span class="section-title--secondary">Quick List</span> of Our
+                <span class="section-title--primary">Features</span>
+              </h3>
+              <div class="accordion-area">
+                <details>
+                  <summary>Custom design solutions</summary>
+                  <p>
+                    We offer tailored design solutions that cater to the
+                    specific needs and requirements of our clients, ensuring
+                    that the final outcome is a perfect fit for their vision.
+                  </p>
+                </details>
+                <details>
+                  <summary>Sustainable building practices</summary>
+                  <p>
+                    Our team has expertise in sustainable and energy-efficient
+                    building practices, ensuring that our designs are not only
+                    beautiful but also environmentally friendly.
+                  </p>
+                </details>
+                <details>
+                  <summary>Strong project management</summary>
+                  <p>
+                    We have strong project management skills to ensure that
+                    projects are completed on time and within budget.
+                  </p>
+                </details>
+                <details>
+                  <summary>Responsive customer service</summary>
+                  <p>
+                    We offer responsive customer service and open communication
+                    throughout the project, ensuring that our clients are always
+                    informed and in the loop.
+                  </p>
+                </details>
+              </div>
+              <div class="feature-list">
+                <ul>
+                  <li><i class="fa-solid fa-check"></i> Custom Design Solution</li>
+                  <li><i class="fa-solid fa-check"></i> Sustainable Building Practices</li>
+                  <li><i class="fa-solid fa-check"></i> Strong Project Management</li>
+                  <li><i class="fa-solid fa-check"></i> Responsive customer Service</li>
+                </ul>
+              </div>
+              <button class="btn-primary">Explore More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
