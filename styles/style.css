@@ -632,6 +632,7 @@ details p {
   nav #menu {
     flex-direction: column;
     gap: 20px;
+    align-items: center;
   }
 
   .logo,
@@ -657,6 +658,10 @@ details p {
 
   .quick__list-area.flex {
     gap: 60px;
+  }
+
+  .img-container {
+    gap: 15px;
   }
   .accordion-area {
     display: none;
